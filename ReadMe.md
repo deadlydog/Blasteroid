@@ -8,7 +8,7 @@ A Space Invaders style game created using C++ and DirectX 8.1 in 2004.
 
 [Download it](Installers/) and check it out.
 To ensure everything works properly, it's recommended you use the `Blasteroid Installer.exe`.
-If you don't want to 'install' the game, you can instead download the `Blasteroid Executable.zip` and run the `Blasteroid.exe`, although the fonts may not display correctly.
+If you don't want to "install" the game, you can instead download the `Blasteroid Executable.zip` and run the `Blasteroid.exe`, although the fonts may not display correctly.
 
 ## Requirements
 
