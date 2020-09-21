@@ -24,4 +24,6 @@ The enemies use a simple AI system that I developed to determine when to attack 
 
 Most of the graphics and sound effects were made by me, but the music and some of the graphics are from 3rd party sources.
 
-Feel free to check out the source code :)
+I've uploaded the code and installer for posterity sake.
+Feel free to check out the source code 🙂
+However, please don't judge me by it as it was written near the start of my programming career when I still had much to learn 😉
