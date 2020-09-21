@@ -1,14 +1,14 @@
 # Blasteroid
 
-This is a Space Invaders type of game.
-I created Blasteroid while I was a student at the University of Regina using C++ and DirectX.
+A Space Invaders style game created using C++ and DirectX.
 
 ![Blasteroid screenshot](docs/Images/BlasteroidScreenshot.jpg)
 
 ## History
 
 Blasteroid was the second game I created.
-I started it in 2004, and continued to work on it into 2005.
+I started it in 2004, and continued to work on it into 2005, while a student at the University of Regina.
+
 The game has 3 levels, which are loaded from script files and more levels could easily be added.
 The enemies use a simple AI system that I developed to determine when to attack your ship and when to flee, although it may be tough to see this as the screen often quickly fills up with enemies.
 
