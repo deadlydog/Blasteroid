@@ -1,0 +1,170 @@
+// Level 1 Objects
+
+/* 
+If no Enemies are specified after the boss, none will appear while the boss is on screen.
+
+If you want other Enemies to still appear after the boss appears, just add them after the boss. Random Enemies that appear after the boss will only be of the Types specified after the boss appears, and they will only continue to appear until the longest specified time elapses. So if you want Enemies to continue to appear until the boss is dead, have one Enemy with a very large TimeUntilAppearingInMilliseconds, such as 987654321.
+*/
+
+// Random Objects/Enemies
+// Format: MinRandomEnemyTime MaxRandomEnemyTime RandomEnemyLikeliness
+// MinRandomEnemyTime = Amount of time that must pass before attempting to create a new Random Enemy
+// MaxRandomEnemyTime = Amount of time the can elapse before attempting to create a new Random Enemy
+// RandomEnemyLikeliness = The likeliness a Random Enemy will be created when attempted 
+// (1 in X chance of creating the Random Enemy. ex 1 = 100% chance of creation, 2 = 50% chance of creation, etc)
+
+500	10000	2
+
+
+// Scripted Objects/Enemies
+// Format: ObjectType XPosition TimeUntilAppearingInMilliseconds
+// XPosition must be between 0 and (680 - ObjectWidth)
+
+
+0	100	1000
+0	500	1000
+
+1	200	2000
+1	400	2000
+
+1	100	5000
+1	300	5500
+1	500	6000
+
+0	50	15000
+1	300	15000
+0	600	15000
+
+1	100	18000
+0	300	18000
+1	500	18000
+
+1	200	24000
+1	400	24000
+
+0	100	30000
+0	300	30000
+0	500	30000
+
+1	100	33000
+1	300	33000
+1	500	33000
+
+1	100	36000
+0	300	36000
+1	500	36000
+
+0	100	40000
+0	200	40500
+0	300	41000
+0	400	41500
+0	500	42000
+0	600	42500
+
+1	500	43000
+1	400	43500
+1	300	44000
+1	200	44500
+1	100	45000
+
+2	200	45500
+2	300	46000
+2	400	46500
+2	500	47000
+2	600	47500
+
+1	200	55000
+0	300	55000
+1	400	55000
+
+2	300	58000
+2	400	59000
+2	200	60000
+
+0	100	65000
+0	300	65000
+
+2	200	67000
+
+0	100	70000
+0	300	70000
+0	500	70000
+
+1	200	73000
+1	400	73000
+
+0	100	80000
+1	150	80000
+2	200	80000
+0	250	80000
+1	300	80000
+2	350	80000
+0	400	80000
+1	450	80000
+2	500	80000
+0	550	80000
+
+2	200	90000
+2	400	90000
+
+0	100	95000
+0	300	95000
+0	500	95000
+
+1	100	98000
+1	200	99000
+1	300	100000
+1	400	101000
+1	500	102000
+1	600	103000
+
+2	200	110000
+0	300	111000
+2	400	112000
+
+2	200	120000
+2	300	120000
+2	400	120000
+
+0	50	125000
+0	600	125000
+
+1	100	128000
+1	300	128000
+1	500	128000
+
+2	200	130000
+2	400	130000
+
+1	100	140000
+1	500	140000
+
+0	100	145000
+1	300	145000
+2	500	145000
+
+2	250	150000
+2	350	150000
+2	450	150000
+
+0	100	152000
+0	500	152000
+
+2	200	155000
+0	300	155000
+2	400	155000
+
+
+// Enemy boss
+7	300	160000
+
+// Enemies to create after boss
+0	100	163000
+1	300	163000
+2	500	163000
+
+// Ensure that Random Enemies continue to be created until Boss is dead
+0	0	987654321
+
+
+// Level 1 Music is 229000 long
