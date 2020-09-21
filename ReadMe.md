@@ -1,6 +1,6 @@
 # Blasteroid
 
-A Space Invaders style game created using C++ and DirectX 8.1.
+A Space Invaders style game created using C++ and DirectX 8.1 in 2004.
 
 ![Blasteroid screenshot](docs/Images/BlasteroidScreenshot.jpg)
 
