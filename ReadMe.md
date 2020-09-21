@@ -16,8 +16,9 @@ Most of the graphics and sound effects were made by me, but the music and some o
 
 ## Get it
 
-[Download it](Installers/Blasteroid%20Installer.exe) and check it out.
-If you don't want to 'install' the game, you can just [download the executable file](Installers/Blasteroid%20Executable.zip) and run the, although the fonts may not display correctly.
+[Download it](Installers/) and check it out.
+To ensure everything works properly, it's recommended you use the `Blasteroid Installer.exe`.
+If you don't want to 'install' the game, you can instead download the `Blasteroid Executable.zip` and run the `Blasteroid.exe`, although the fonts may not display correctly.
 
 ## Requirements
 
