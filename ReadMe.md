@@ -3,6 +3,8 @@
 This is a Space Invaders type of game.
 I created Blasteroid while I was a student at the University of Regina using C++ and DirectX.
 
+![Blasteroid screenshot](docs/Images/BlasteroidScreenshot.jpg)
+
 ## History
 
 Blasteroid was the second game I created.
